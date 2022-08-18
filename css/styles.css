@@ -1,11 +1,15 @@
-  .container {
-    max-width: 960px;
-  }
+.container {
+  max-width: 960px;
+}
 
-  .alert {
-    position: fixed;
-    top: 80px;
-    width: 50%;
-    left: 50%;
-    transform: translate(-50%, 0);
-  }
+.alert {
+  position: fixed;
+  top: 80px;
+  width: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#mapa_recetas {
+  max-width: 100%;
+}

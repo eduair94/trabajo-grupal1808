@@ -13,7 +13,44 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
     <!-- MENU -->
     
     <!-- TODO: agregar el menú -->
@@ -21,7 +58,7 @@
     <!-- END MENU -->
 
     <!-- MAIN -->
-    <main>
+    <main class="pt-5">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-sm-12 col-lg-8">
@@ -83,7 +120,7 @@
             <div class="row p-4 justify-content-center">
                 <div class="col-md-7 col-lg-6 col-xl-5">
                     <h5>RecetApp</h5>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.452744933835!2d-56.15654760447915!3d-34.89508611792764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81021bcb820f%3A0xb49ebdc409e03574!2sAv.%20Dr.%20Am%C3%A9rico%20Ricaldoni%201861%2C%2011600%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1660853842290!5m2!1ses!2suy" width="340" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe id="mapa_recetas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.452744933835!2d-56.15654760447915!3d-34.89508611792764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81021bcb820f%3A0xb49ebdc409e03574!2sAv.%20Dr.%20Am%C3%A9rico%20Ricaldoni%201861%2C%2011600%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1660853842290!5m2!1ses!2suy" width="340" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-md-3 col-lg-2">
                     <h5>Links a redes</h5>
